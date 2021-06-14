@@ -1,4 +1,4 @@
-# ElegooNeptune2Intigration
+# ElegooNeptune2Integration
  Adds Neptune 2 Cura Support
 
 Elegoo Neptune 2 integration utilities to enable setting up and using the printer. This plugin uses the configuration files from https://github.com/Toylerrr/ELEGOO_Neptune2_Cura
