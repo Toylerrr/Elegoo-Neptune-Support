@@ -28,7 +28,7 @@ class Installer(Extension):
 
         # Local paths
         plugin_path = os.path.join(Resources.getStoragePath(Resources.Resources),
-                "plugins", "ElegooNeptune2Intigration", "ElegooNeptune2Intigration")
+                "plugins", "Neptune2Integration", "Neptune2Integration")
         definitions_path = Resources.getStoragePath(Resources.DefinitionContainers)
         resources_path = Resources.getStoragePath(Resources.Resources)
 
