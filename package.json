@@ -1,0 +1,16 @@
+{
+    "author": {
+        "author_id": "Toylerrr",
+        "display_name": "Toylerrr",
+        "email": "tyler@adler.xyz",
+        "website": "https://adler.xyz"
+    },
+    "description": "Elegoo Neptune Support enables setting up and using the printer. This plugin uses the configuration files from https://github.com/Toylerrr/ELEGOO_Neptune2_Cura",
+    "display_name": "ELEGOO Neptune Support",
+    "package_id": "ElegooNeptuneSupport",
+    "package_type": "plugin",
+    "package_version": "2.0.0",
+    "sdk_version": 7,
+    "sdk_version_semver": "7.2.0",
+    "website": "https://github.com/Toylerrr/ELEGOO_Neptune2_Cura"
+}
