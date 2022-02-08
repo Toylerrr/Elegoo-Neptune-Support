@@ -42,17 +42,53 @@ class Installer(Extension):
 
         # Build src -> dst resource map
         resource_map = {
+            #Printer Definitions
             "elegoo_neptune_2.def.json": {
-                "src": os.path.join(plugin_path, "printer", "defs"),
+                "src": os.path.join(plugin_path, "printer", "definitions"),
                 "dst": os.path.join(definitions_path)
             },
+            "elegoo_neptune_2D.def.json": {
+                "src": os.path.join(plugin_path, "printer", "definitions"),
+                "dst": os.path.join(definitions_path)
+            },
+            #Extruder Definition
             "elegoo_neptune2_extruder_0.def.json": {
                 "src": os.path.join(plugin_path, "printer", "extruders"),
                 "dst": os.path.join(resources_path, "extruders")
             },
+            "elegoo_neptune2_extruder_1.def.json": {
+                "src": os.path.join(plugin_path, "printer", "extruders"),
+                "dst": os.path.join(resources_path, "extruders")
+            },
+            #Meshes
             "elegoo_neptune_2.stl": {
                 "src": os.path.join(plugin_path, "printer", "meshes"),
                 "dst": os.path.join(resources_path, "meshes")
+            },
+            #Quality
+            "elegoo_neptune_2_draft.inst.cfg": {
+                "src": os.path.join(plugin_path, "printer", "quality","elegoo_neptune_2"),
+                "dst": os.path.join(resources_path,"quality","elegoo_neptune_2")
+            },
+            "elegoo_neptune_2_fine.inst.cfg": {
+                "src": os.path.join(plugin_path, "printer", "quality","elegoo_neptune_2"),
+                "dst": os.path.join(resources_path,"quality","elegoo_neptune_2")
+            },
+            "elegoo_neptune_2_normal.inst.cfg": {
+                "src": os.path.join(plugin_path, "printer", "quality","elegoo_neptune_2"),
+                "dst": os.path.join(resources_path,"quality","elegoo_neptune_2")
+            },
+            "elegoo_neptune_2D_draft.inst.cfg": {
+                "src": os.path.join(plugin_path, "printer", "quality","elegoo_neptune_2D"),
+                "dst": os.path.join(resources_path,"quality","elegoo_neptune_2D")
+            },
+            "elegoo_neptune_2D_fine.inst.cfg": {
+                "src": os.path.join(plugin_path, "printer", "quality","elegoo_neptune_2D"),
+                "dst": os.path.join(resources_path,"quality","elegoo_neptune_2D")
+            },
+            "elegoo_neptune_2D_normal.inst.cfg": {
+                "src": os.path.join(plugin_path, "printer", "quality","elegoo_neptune_2D"),
+                "dst": os.path.join(resources_path,"quality","elegoo_neptune_2D")
             }
         }
 
