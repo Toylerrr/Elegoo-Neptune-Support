@@ -2,10 +2,13 @@
 Just to cover my ass
 
 # Elegoo Neptune Support
- Adds Neptune 2 Cura Support
- Adds Neptune 2D Cura Support
- Adds Qualities (Draft,Normal,Fine)
- Adds ability to have images on printing screen without MKSWifi
+Adds Neptune 2 Cura Support
+
+Adds Neptune 2D Cura Support
+
+Adds Qualities (Draft,Normal,Fine)
+
+Adds ability to have images on printing screen without MKSWifi
 
 Elegoo Neptune support enables setting up and using the printer. This plugin uses the configuration files from https://github.com/Toylerrr/ELEGOO_Neptune2_Cura
 
